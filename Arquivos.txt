@@ -1,0 +1,96 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package trabalhoFinal_V2;
+
+import java.io.*;
+import java.util.*;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+/**@authors
+ * Alessandra Siciliano Orlando
+ * José Augusto Ramos Belmont 
+ * Bruno Cipriani Cerqueira 
+ */
+public class Arquivos {
+    
+//====================== SALVAMENTO E RECUPERAÇÃO DE BENEFICIÁRIOS ======================================    
+    
+    public static void gravaBeneficiarioMySql (List<Beneficiarios> cadBeneficiarioMySql){
+        
+                                    [código]
+        
+    }
+    
+    public static List recuperaBeneficiarioMySql (){
+        
+                                    [código]
+        
+    } 
+    
+    
+// =======================SALVAMENTO E RECUPERAÇÃO DE PRODUTOS =======================================
+    
+    public static void gravaProdutosOracle (List<Produto> cadProdutosOracle){
+        
+                                    [código]
+        
+    }
+    
+    public static List recuperaProdutoOracle (){
+        
+                                    [código]
+        
+    } 
+    
+    
+// =======================  SALVAMENTO E RECUPERAÇÃO DE EMPRESAS ==============================================
+    
+    public static void gravaEmpresaMongoDB (List<EmpresaDoadora> cadEmpresaMongoDB){
+        
+                                    [código]
+        
+    }
+    
+    
+    public static List recuperaEmpresaMongoDB (){
+        
+                                    [código]
+        
+    } 
+    
+    
+    // =======================  SALVAMENTO E RECUPERAÇÃO DE ESTOQUE ==============================================
+    
+    public static void gravaEstoqueMySql (List<EmpresaDoadora> cadEstoqueMySql){
+        
+                                    [código]
+        
+    }
+    
+    
+    public static List recuperaEstoqueMySql (){
+        
+                                    [código]
+        
+    } 
+    
+    // =======================  SALVAMENTO E RECUPERAÇÃO DE DOAÇÕES ==============================================
+    
+   public static void gravaDoacoesOracle (List<EmpresaDoadora> cadDoacoesOracle){
+        
+                                    [código]
+        
+    }
+    
+    
+    public static List recuperaDoacoesOracle (){
+        
+                                    [código]
+        
+    } 
+  
+}
